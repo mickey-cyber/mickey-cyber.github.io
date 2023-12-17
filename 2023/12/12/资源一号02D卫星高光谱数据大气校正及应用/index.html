@@ -28,7 +28,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://mickey-cyber.github.io/image/20231214-1.jpg">
 <meta property="article:published_time" content="2023-12-12T12:52:08.000Z">
-<meta property="article:modified_time" content="2023-12-14T15:27:47.863Z">
+<meta property="article:modified_time" content="2023-12-17T02:39:09.365Z">
 <meta property="article:author" content="Mickey-cyber">
 <meta property="article:tag" content="文献阅读">
 <meta name="twitter:card" content="summary">
@@ -114,7 +114,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%B5%84%E6%BA%90%E4%B8%80%E5%8F%B702D%E5%8D%AB%E6%98%9F%E9%AB%98%E5%85%89%E8%B0%B1%E6%95%B0%E6%8D%AE%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3%E5%8F%8A%E5%BA%94%E7%94%A8"><span class="nav-number">1.</span> <span class="nav-text">资源一号02D卫星高光谱数据大气校正及应用</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#%E5%B4%94%E6%88%90%E7%8E%B2-%E5%BC%A0%E5%AE%8F%E4%BC%9F-%E8%8C%83%E6%9D%BE%E6%BB%94-%E6%9D%8E%E5%BB%B6%E5%B3%B0-%E8%BF%90%E6%99%93%E4%B8%9C"><span class="nav-number">1.0.0.0.0.1.</span> <span class="nav-text">崔成玲, 张宏伟, 范松滔, 李延峰, 运晓东</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#2022-10-%E9%81%A5%E6%84%9F%E4%BF%A1%E6%81%AF"><span class="nav-number">1.0.0.0.0.2.</span> <span class="nav-text">2022.10  遥感信息</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#keyword%EF%BC%9A-%E8%B5%84%E6%BA%90%E4%B8%80%E5%8F%B702D%E5%8D%AB%E6%98%9F-%E9%AB%98%E5%85%89%E8%B0%B1%E9%81%A5%E6%84%9F-%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3-%E5%A4%A7%E6%B0%94%E8%BE%90%E5%B0%84%E4%BC%A0%E8%BE%93%E6%A8%A1%E5%9E%8B-%E5%9C%B0%E8%A1%A8%E5%8F%8D%E5%B0%84%E7%8E%87-%E5%8F%B6%E7%BB%BF%E7%B4%A0a%E6%B5%93%E5%BA%A6"><span class="nav-number">1.0.0.0.0.3.</span> <span class="nav-text">keyword： 资源一号02D卫星;高光谱遥感;大气校正;大气辐射传输模型;地表反射率;叶绿素a浓度</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E6%91%98%E8%A6%81"><span class="nav-number">1.1.</span> <span class="nav-text">1.摘要</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E6%96%87%E7%AB%A0%E7%BB%93%E6%9E%84"><span class="nav-number">1.2.</span> <span class="nav-text">2.文章结构</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#0%E5%BC%95%E8%A8%80"><span class="nav-number">1.2.0.1.</span> <span class="nav-text">0引言</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1%E5%8E%9F%E7%90%86%E4%B8%8E%E6%96%B9%E6%B3%95"><span class="nav-number">1.2.0.2.</span> <span class="nav-text">1原理与方法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E5%AE%9E%E6%96%BD%E6%9E%84%E5%BB%BA%E6%9F%A5%E6%89%BE%E8%A1%A8%E7%9A%84%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3"><span class="nav-number">1.2.0.3.</span> <span class="nav-text">2.实施构建查找表的大气校正</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E5%AE%9E%E6%96%BD%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3%E6%80%A7%E8%83%BD%E8%AF%84%E4%BC%B0"><span class="nav-number">1.2.0.4.</span> <span class="nav-text">3.实施大气校正性能评估</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%EF%BC%881%EF%BC%89%E4%B8%8D%E5%90%8C%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3%E6%96%B9%E6%B3%95%E7%9A%84%E7%B2%BE%E5%BA%A6%E5%88%86%E6%9E%90"><span class="nav-number">1.2.0.4.1.</span> <span class="nav-text">（1）不同大气校正方法的精度分析</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%EF%BC%882%EF%BC%89%E4%B8%8D%E5%90%8C%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3%E6%96%B9%E6%B3%95%E7%9A%84%E6%95%88%E7%8E%87%E5%88%86%E6%9E%90"><span class="nav-number">1.2.0.4.2.</span> <span class="nav-text">（2）不同大气校正方法的效率分析</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%EF%BC%883%EF%BC%89%E5%BA%94%E7%94%A8%E7%B2%BE%E5%BA%A6%E5%88%86%E6%9E%90"><span class="nav-number">1.2.0.4.3.</span> <span class="nav-text">（3）应用精度分析</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E5%AE%9E%E9%AA%8C%E6%96%B9%E6%B3%95"><span class="nav-number">1.3.</span> <span class="nav-text">3.实验方法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%AE%9E%E9%AA%8C%E6%95%B0%E6%8D%AE"><span class="nav-number">1.3.1.</span> <span class="nav-text">1.实验数据</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E4%B8%BB%E8%A6%81%E5%A4%A7%E6%B0%94%E7%89%B9%E5%BE%81%E5%8F%82%E6%95%B0%E5%8F%8D%E6%BC%94"><span class="nav-number">1.3.2.</span> <span class="nav-text">2.主要大气特征参数反演</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%EF%BC%881%EF%BC%89%E6%B0%B4%E6%B1%BD%E5%90%AB%E9%87%8F%E5%8F%8D%E6%BC%94"><span class="nav-number">1.3.2.1.</span> <span class="nav-text">（1）水汽含量反演</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%EF%BC%882%EF%BC%89%E6%B0%94%E6%BA%B6%E8%83%B6%E5%85%89%E5%AD%A6%E5%8E%9A%E5%BA%A6"><span class="nav-number">1.3.2.2.</span> <span class="nav-text">（2）气溶胶光学厚度</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E5%AE%9E%E6%97%B6%E6%9E%84%E5%BB%BA%E6%9F%A5%E6%89%BE%E8%A1%A8%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3"><span class="nav-number">1.3.3.</span> <span class="nav-text">3.实时构建查找表大气校正</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E5%88%9B%E6%96%B0%E7%82%B9"><span class="nav-number">1.4.</span> <span class="nav-text">4.创新点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E6%8B%93%E5%B1%95%E5%86%85%E5%AE%B9"><span class="nav-number">1.5.</span> <span class="nav-text">5.拓展内容</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%81%8F%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E5%9B%9E%E5%BD%92%E6%B3%95"><span class="nav-number">1.5.1.</span> <span class="nav-text">偏最小二乘回归法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%AD%E6%B3%A2%E7%BA%A2%E5%A4%96%E4%B8%8D%E5%8F%97%E5%A4%A7%E6%B0%94%E6%B0%94%E6%BA%B6%E8%83%B6%E5%BD%B1%E5%93%8D%EF%BC%9F"><span class="nav-number">1.5.2.</span> <span class="nav-text">短波红外不受大气气溶胶影响？</span></a></li></ol></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%B5%84%E6%BA%90%E4%B8%80%E5%8F%B702D%E5%8D%AB%E6%98%9F%E9%AB%98%E5%85%89%E8%B0%B1%E6%95%B0%E6%8D%AE%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3%E5%8F%8A%E5%BA%94%E7%94%A8"><span class="nav-number">1.</span> <span class="nav-text">资源一号02D卫星高光谱数据大气校正及应用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%91%98%E8%A6%81"><span class="nav-number">1.1.</span> <span class="nav-text">摘要</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E7%BB%93%E6%9E%84"><span class="nav-number">1.2.</span> <span class="nav-text">文章结构</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BC%95%E8%A8%80"><span class="nav-number">1.2.0.1.</span> <span class="nav-text">引言</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8E%9F%E7%90%86%E4%B8%8E%E6%96%B9%E6%B3%95"><span class="nav-number">1.2.0.2.</span> <span class="nav-text">原理与方法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%9E%E6%96%BD%E6%9E%84%E5%BB%BA%E6%9F%A5%E6%89%BE%E8%A1%A8%E7%9A%84%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3"><span class="nav-number">1.2.0.3.</span> <span class="nav-text">实施构建查找表的大气校正</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%9E%E6%96%BD%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3%E6%80%A7%E8%83%BD%E8%AF%84%E4%BC%B0"><span class="nav-number">1.2.0.4.</span> <span class="nav-text">实施大气校正性能评估</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%EF%BC%881%EF%BC%89%E4%B8%8D%E5%90%8C%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3%E6%96%B9%E6%B3%95%E7%9A%84%E7%B2%BE%E5%BA%A6%E5%88%86%E6%9E%90"><span class="nav-number">1.2.0.4.1.</span> <span class="nav-text">（1）不同大气校正方法的精度分析</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%EF%BC%882%EF%BC%89%E4%B8%8D%E5%90%8C%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3%E6%96%B9%E6%B3%95%E7%9A%84%E6%95%88%E7%8E%87%E5%88%86%E6%9E%90"><span class="nav-number">1.2.0.4.2.</span> <span class="nav-text">（2）不同大气校正方法的效率分析</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%EF%BC%883%EF%BC%89%E5%BA%94%E7%94%A8%E7%B2%BE%E5%BA%A6%E5%88%86%E6%9E%90"><span class="nav-number">1.2.0.4.3.</span> <span class="nav-text">（3）应用精度分析</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9E%E9%AA%8C%E6%96%B9%E6%B3%95"><span class="nav-number">1.3.</span> <span class="nav-text">实验方法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9E%E9%AA%8C%E6%95%B0%E6%8D%AE"><span class="nav-number">1.3.1.</span> <span class="nav-text">实验数据</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E5%A4%A7%E6%B0%94%E7%89%B9%E5%BE%81%E5%8F%82%E6%95%B0%E5%8F%8D%E6%BC%94"><span class="nav-number">1.3.2.</span> <span class="nav-text">主要大气特征参数反演</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%EF%BC%881%EF%BC%89%E6%B0%B4%E6%B1%BD%E5%90%AB%E9%87%8F%E5%8F%8D%E6%BC%94"><span class="nav-number">1.3.2.1.</span> <span class="nav-text">（1）水汽含量反演</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%EF%BC%882%EF%BC%89%E6%B0%94%E6%BA%B6%E8%83%B6%E5%85%89%E5%AD%A6%E5%8E%9A%E5%BA%A6"><span class="nav-number">1.3.2.2.</span> <span class="nav-text">（2）气溶胶光学厚度</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9E%E6%97%B6%E6%9E%84%E5%BB%BA%E6%9F%A5%E6%89%BE%E8%A1%A8%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3"><span class="nav-number">1.3.3.</span> <span class="nav-text">实时构建查找表大气校正</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E6%96%B0%E7%82%B9"><span class="nav-number">1.4.</span> <span class="nav-text">创新点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8B%93%E5%B1%95%E5%86%85%E5%AE%B9"><span class="nav-number">1.5.</span> <span class="nav-text">拓展内容</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%81%8F%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E5%9B%9E%E5%BD%92%E6%B3%95"><span class="nav-number">1.5.1.</span> <span class="nav-text">偏最小二乘回归法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%AD%E6%B3%A2%E7%BA%A2%E5%A4%96%E4%B8%8D%E5%8F%97%E5%A4%A7%E6%B0%94%E6%B0%94%E6%BA%B6%E8%83%B6%E5%BD%B1%E5%93%8D%EF%BC%9F"><span class="nav-number">1.5.2.</span> <span class="nav-text">短波红外不受大气气溶胶影响？</span></a></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -129,13 +129,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -218,7 +218,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-12-14 23:27:47" itemprop="dateModified" datetime="2023-12-14T23:27:47+08:00">2023-12-14</time>
+      <time title="修改时间：2023-12-17 10:39:09" itemprop="dateModified" datetime="2023-12-17T10:39:09+08:00">2023-12-17</time>
     </span>
 
   
@@ -235,14 +235,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>2.8k</span>
+      <span>2.7k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>3 分钟</span>
+      <span>2 分钟</span>
     </span>
 </div>
 
@@ -252,22 +252,23 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h1 id="资源一号02D卫星高光谱数据大气校正及应用"><a href="#资源一号02D卫星高光谱数据大气校正及应用" class="headerlink" title="资源一号02D卫星高光谱数据大气校正及应用"></a>资源一号02D卫星高光谱数据大气校正及应用</h1><h6 id="崔成玲-张宏伟-范松滔-李延峰-运晓东"><a href="#崔成玲-张宏伟-范松滔-李延峰-运晓东" class="headerlink" title="崔成玲, 张宏伟, 范松滔, 李延峰, 运晓东"></a>崔成玲, 张宏伟, 范松滔, 李延峰, 运晓东</h6><h6 id="2022-10-遥感信息"><a href="#2022-10-遥感信息" class="headerlink" title="2022.10  遥感信息"></a>2022.10  遥感信息</h6><h6 id="keyword：-资源一号02D卫星-高光谱遥感-大气校正-大气辐射传输模型-地表反射率-叶绿素a浓度"><a href="#keyword：-资源一号02D卫星-高光谱遥感-大气校正-大气辐射传输模型-地表反射率-叶绿素a浓度" class="headerlink" title="keyword： 资源一号02D卫星;高光谱遥感;大气校正;大气辐射传输模型;地表反射率;叶绿素a浓度"></a>keyword： 资源一号02D卫星;高光谱遥感;大气校正;大气辐射传输模型;地表反射率;叶绿素a浓度</h6><span id="more"></span>
+    <div class="post-body" itemprop="articleBody"><h1 id="资源一号02D卫星高光谱数据大气校正及应用"><a href="#资源一号02D卫星高光谱数据大气校正及应用" class="headerlink" title="资源一号02D卫星高光谱数据大气校正及应用"></a>资源一号02D卫星高光谱数据大气校正及应用</h1><p>崔成玲, 张宏伟, 范松滔, 李延峰, 运晓东<br>2022.10  遥感信息<br><strong>keyword</strong>： 资源一号02D卫星;高光谱遥感;大气校正;大气辐射传输模型;地表反射率;叶绿素a浓度</p>
+<span id="more"></span>
 
-<h2 id="1-摘要"><a href="#1-摘要" class="headerlink" title="1.摘要"></a>1.摘要</h2><p>针对高光谱数据大气校正耗时长和查找表构建不准确等问题，提出基于MODTRAN辐射传输模型实时创建大气校正参数查找表的方法，并应用于水体叶绿素浓度反演。首先，基于高光谱数据实时构建大气校正参数查找表；其次，根据循环迭代反演得到水汽含量和气溶胶光学厚度对查找表插值得到各个波段的大气校正参数，从而完成所有波段数据的大气校正；最后，选择植被、土壤和水体3类典型地物精度分析，并基于反演水体的叶绿素a浓度验证大气校正精度的可靠性。实验结果表明：该方法明显优于6S、FLAASH等大气校正方法；在运行效率上，在多线程并行加速后，运行效率提升了2～4倍；基于水体反射率数据反演水体叶绿素a浓度，反演模型预测集验证中ρ为0.804 7,RMSE为1.8。</p>
-<h2 id="2-文章结构"><a href="#2-文章结构" class="headerlink" title="2.文章结构"></a>2.文章结构</h2><h4 id="0引言"><a href="#0引言" class="headerlink" title="0引言"></a>0引言</h4><p>高光谱遥感背景<br>大气校正方法简介（主要介绍基于辐射传输模型的方法）MODTRAN模型公认度较高。MODTRAN是最为迎合市场需求和研究学者认可度较高的大气辐射传输模型。<br>高光谱遥感卫星介绍</p>
-<h4 id="1原理与方法"><a href="#1原理与方法" class="headerlink" title="1原理与方法"></a>1原理与方法</h4><p>辐射定标：无量纲灰度值–(定标系数)-&gt;表观辐亮度–&gt;无量纲大气表观辐亮度（TOA）<br>大气校正：基于辐射传输模型、计算得到地物真实地表反射率<br>偏最小二乘回归法(PLSR)</p>
-<h4 id="2-实施构建查找表的大气校正"><a href="#2-实施构建查找表的大气校正" class="headerlink" title="2.实施构建查找表的大气校正"></a>2.实施构建查找表的大气校正</h4><p>实验数据、主要大气特征参数反演（水汽含量、气溶胶光学厚度）、实验方法（实施构建查找表大气校正）</p>
-<h4 id="3-实施大气校正性能评估"><a href="#3-实施大气校正性能评估" class="headerlink" title="3.实施大气校正性能评估"></a>3.实施大气校正性能评估</h4><h5 id="（1）不同大气校正方法的精度分析"><a href="#（1）不同大气校正方法的精度分析" class="headerlink" title="（1）不同大气校正方法的精度分析"></a>（1）不同大气校正方法的精度分析</h5><p>三种地物类型：植被、土壤、水体<br>参考真值（MODIS反演的气溶胶和水汽反演产品，插值基于MODTRAN辐射传输模型构建的查找表LUT，进行大气校正）、其他大气校正方法（6S、FLAASH）、TOA（大气表观发射率）</p>
+<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>针对高光谱数据大气校正耗时长和查找表构建不准确等问题，提出基于MODTRAN辐射传输模型实时创建大气校正参数查找表的方法，并应用于水体叶绿素浓度反演。首先，基于高光谱数据实时构建大气校正参数查找表；其次，根据循环迭代反演得到水汽含量和气溶胶光学厚度对查找表插值得到各个波段的大气校正参数，从而完成所有波段数据的大气校正；最后，选择植被、土壤和水体3类典型地物精度分析，并基于反演水体的叶绿素a浓度验证大气校正精度的可靠性。实验结果表明：该方法明显优于6S、FLAASH等大气校正方法；在运行效率上，在多线程并行加速后，运行效率提升了2～4倍；基于水体反射率数据反演水体叶绿素a浓度，反演模型预测集验证中ρ为0.804 7,RMSE为1.8。</p>
+<h2 id="文章结构"><a href="#文章结构" class="headerlink" title="文章结构"></a>文章结构</h2><h4 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h4><p>高光谱遥感背景<br>大气校正方法简介（主要介绍基于辐射传输模型的方法）MODTRAN模型公认度较高。MODTRAN是最为迎合市场需求和研究学者认可度较高的大气辐射传输模型。<br>高光谱遥感卫星介绍</p>
+<h4 id="原理与方法"><a href="#原理与方法" class="headerlink" title="原理与方法"></a>原理与方法</h4><p>辐射定标：无量纲灰度值–(定标系数)-&gt;表观辐亮度–&gt;无量纲大气表观辐亮度（TOA）<br>大气校正：基于辐射传输模型、计算得到地物真实地表反射率<br>偏最小二乘回归法(PLSR)</p>
+<h4 id="实施构建查找表的大气校正"><a href="#实施构建查找表的大气校正" class="headerlink" title="实施构建查找表的大气校正"></a>实施构建查找表的大气校正</h4><p>实验数据、主要大气特征参数反演（水汽含量、气溶胶光学厚度）、实验方法（实施构建查找表大气校正）</p>
+<h4 id="实施大气校正性能评估"><a href="#实施大气校正性能评估" class="headerlink" title="实施大气校正性能评估"></a>实施大气校正性能评估</h4><h5 id="（1）不同大气校正方法的精度分析"><a href="#（1）不同大气校正方法的精度分析" class="headerlink" title="（1）不同大气校正方法的精度分析"></a>（1）不同大气校正方法的精度分析</h5><p>三种地物类型：植被、土壤、水体<br>参考真值（MODIS反演的气溶胶和水汽反演产品，插值基于MODTRAN辐射传输模型构建的查找表LUT，进行大气校正）、其他大气校正方法（6S、FLAASH）、TOA（大气表观发射率）</p>
 <h5 id="（2）不同大气校正方法的效率分析"><a href="#（2）不同大气校正方法的效率分析" class="headerlink" title="（2）不同大气校正方法的效率分析"></a>（2）不同大气校正方法的效率分析</h5><p>比较运行时间、多线程&#x2F;单线程</p>
 <h5 id="（3）应用精度分析"><a href="#（3）应用精度分析" class="headerlink" title="（3）应用精度分析"></a>（3）应用精度分析</h5><p>实际应用于太湖区域，估算叶绿素a浓度，得出浓度分布图，并与实际情况对比分析应用精度。</p>
-<h2 id="3-实验方法"><a href="#3-实验方法" class="headerlink" title="3.实验方法"></a>3.实验方法</h2><h3 id="1-实验数据"><a href="#1-实验数据" class="headerlink" title="1.实验数据"></a>1.实验数据</h3><p>太湖地区ZY-1-02D卫星高光谱影像</p>
-<h3 id="2-主要大气特征参数反演"><a href="#2-主要大气特征参数反演" class="headerlink" title="2.主要大气特征参数反演"></a>2.主要大气特征参数反演</h3><h4 id="（1）水汽含量反演"><a href="#（1）水汽含量反演" class="headerlink" title="（1）水汽含量反演"></a>（1）水汽含量反演</h4><p>通道比值法、线性内插回归比值法、<strong>大气预处理微分吸收法</strong>（本文选择）<br>水汽吸收通道主要在：820、940、1135nm位置。本文结合大气透过率与水汽吸收通道推荐位置筛选具体使用的通道。比较三个通道水汽含量反演结果的影像质量，选择940nm位置附近的通道作为大气校正输入参数。</p>
+<h2 id="实验方法"><a href="#实验方法" class="headerlink" title="实验方法"></a>实验方法</h2><h3 id="实验数据"><a href="#实验数据" class="headerlink" title="实验数据"></a>实验数据</h3><p>太湖地区ZY-1-02D卫星高光谱影像</p>
+<h3 id="主要大气特征参数反演"><a href="#主要大气特征参数反演" class="headerlink" title="主要大气特征参数反演"></a>主要大气特征参数反演</h3><h4 id="（1）水汽含量反演"><a href="#（1）水汽含量反演" class="headerlink" title="（1）水汽含量反演"></a>（1）水汽含量反演</h4><p>通道比值法、线性内插回归比值法、<strong>大气预处理微分吸收法</strong>（本文选择）<br>水汽吸收通道主要在：820、940、1135nm位置。本文结合大气透过率与水汽吸收通道推荐位置筛选具体使用的通道。比较三个通道水汽含量反演结果的影像质量，选择940nm位置附近的通道作为大气校正输入参数。</p>
 <h4 id="（2）气溶胶光学厚度"><a href="#（2）气溶胶光学厚度" class="headerlink" title="（2）气溶胶光学厚度"></a>（2）气溶胶光学厚度</h4><p><strong>暗像元法</strong> 采用归一化植被指数和2100nm附近反射率查找暗像元</p>
-<h3 id="3-实时构建查找表大气校正"><a href="#3-实时构建查找表大气校正" class="headerlink" title="3.实时构建查找表大气校正"></a>3.实时构建查找表大气校正</h3><p>根据影像本身反演水汽含量和能见度插值查找表（实时性？）  </p>
+<h3 id="实时构建查找表大气校正"><a href="#实时构建查找表大气校正" class="headerlink" title="实时构建查找表大气校正"></a>实时构建查找表大气校正</h3><p>根据影像本身反演水汽含量和能见度插值查找表（实时性？）  </p>
 <p><img src="/image/20231214-1.jpg" alt="大气校正流程图"></p>
-<h2 id="4-创新点"><a href="#4-创新点" class="headerlink" title="4.创新点"></a>4.创新点</h2><p>通过MODTRAN模型实施构建大气校正参数查找表<br>采用多线程并行加速对算法进行优化</p>
-<h2 id="5-拓展内容"><a href="#5-拓展内容" class="headerlink" title="5.拓展内容"></a>5.拓展内容</h2><ul>
+<h2 id="创新点"><a href="#创新点" class="headerlink" title="创新点"></a>创新点</h2><p>通过MODTRAN模型实施构建大气校正参数查找表<br>采用多线程并行加速对算法进行优化</p>
+<h2 id="拓展内容"><a href="#拓展内容" class="headerlink" title="拓展内容"></a>拓展内容</h2><ul>
 <li><h3 id="偏最小二乘回归法"><a href="#偏最小二乘回归法" class="headerlink" title="偏最小二乘回归法"></a>偏最小二乘回归法</h3></li>
 </ul>
 <p>偏最小二乘回归法：（Partial Least Squares Regression，简称PLS回归）是一种多元统计分析方法，用于建立变量之间的线性模型。它主要用于处理高维数据集中的共线性和多重共线性问题，尤其在特征数目多于样本数目的情况下。</p>
@@ -353,6 +354,9 @@ print(f&quot;Mean Squared Error: &#123;mse&#125;&quot;)
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/2023/12/15/%E9%AB%98%E5%85%89%E8%B0%B1%E9%81%A5%E6%84%9F%E5%9B%BE%E5%83%8F%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95/" rel="next" title="高光谱遥感图像大气校正研究进展">
+                  高光谱遥感图像大气校正研究进展 <i class="fa fa-angle-right"></i>
+                </a>
             </div>
           </div>
     </footer>
@@ -383,13 +387,13 @@ print(f&quot;Mean Squared Error: &#123;mse&#125;&quot;)
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">4k</span>
+    <span title="站点总字数">11k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">4 分钟</span>
+    <span title="站点阅读时长">10 分钟</span>
   </span>
 </div>
 
